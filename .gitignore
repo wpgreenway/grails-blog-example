@@ -1,0 +1,15 @@
+*.swp
+target
+.DS_Store
+*.ipr
+*.iws
+*.iml
+.idea
+gen
+build
+classes
+*.classpath
+*.settings
+*.project
+stacktrace.log
+out
