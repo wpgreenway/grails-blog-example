@@ -21,4 +21,5 @@ databaseChangeLog = {
     }
 
 	include file: 'add-author-to-post.groovy'
+    include file: 'add-date-created-to-post.groovy'
 }

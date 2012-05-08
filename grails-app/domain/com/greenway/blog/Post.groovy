@@ -5,6 +5,7 @@ class Post {
     String title
     String body
     String author
+    Date dateCreated
 
     static mapping = {
         body type: 'text'
