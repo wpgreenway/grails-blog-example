@@ -19,4 +19,6 @@ databaseChangeLog = {
     changeSet(author: "wpgreenway (generated)", id: "1336436810786-2") {
         createSequence(sequenceName: "hibernate_sequence")
     }
+
+	include file: 'add-author-to-post.groovy'
 }
